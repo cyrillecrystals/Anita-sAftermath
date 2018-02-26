@@ -1,30 +1,55 @@
 <!DOCTYPE html>
 <html>
 
+
 <head>
-  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <meta charset="UFT-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ping Pong Application</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+
+
 </head>
 
 <body>
-
-  <header class="jumbotron">
-    <h2>Ping Pong</h2>
-  </header>
-
-  <div class="rules">
-    <h3>Roll Out!</h3>
-    <p>Rules:</p>
-    <p>Ping Pong will count up to your number from one with the following exceptions:</p>
-    <ol>
-      <li>Numbers divisible by 3 become "ping"</li>
-      <li>Numbers divisible by 5 become "pong"</li>
-      <li>Numbers divisible by 15 become "pingpong"</li>
-    </ol>
+  <div class="jumbotron">
+    <h1>Ping Pong</h1>
   </div>
+
+  <div class="pingpong-rules">
+    <h2>Let's Play!</h2>
+    <h1>RULES:</h1>
+
+    <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+    <ol>
+      <li>Numbers divisible by 3 are replaced with "ping"</li>
+      <li>Numbers divisible by 5 are replaced with "pong"</li>
+      <li>Numbers divisible by 15 are replaced with "pingpong"</li>
+    </ol>
+    <h3>ABOUT Ping Pong</h3>
+    <p>Created by:Kendall Cyrille</p>
+  </div>
+
+  <main class="result">
+    <h3>RESULTS</h3>
+
+    <div class="result1">
+    </div>
+  </main>
+
+  <div class="form-group">
+    <form id="ping-pong">
+      <form id="texty">
+        <label for="number">Enter your number here:</label>
+      </form>
+      <input id="number" type="text">
+      <button type="submit" class="btn" id="pingpong-btn">Ping Pong!</button>
+    </form>
+  </div>
+
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/scripts.js"></script>
 </body>
-
 
 </html>

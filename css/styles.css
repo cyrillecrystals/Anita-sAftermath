@@ -1,0 +1,58 @@
+.jumbotron {
+  color: skyblue;
+  background-color: grey;
+  text-align: center;
+  height: 20vh;
+}
+
+.pingpong-rules {
+  float: left;
+  margin-left: 5%;
+  box-shadow: inset 0 0 20px red;
+  color: white;
+  padding: 8%;
+  width: 40%;
+}
+
+body {
+  background-image: url("../img/pingpong.jpg");
+}
+
+.form-group {
+  float: right;
+  width: 40%;
+  margin-top: 10%;
+  box-shadow: inset 0 0 20px limegreen;
+  padding: 3%;
+  margin-right: 5%;
+}
+
+#texty {
+  color: white;
+}
+
+#pingpong-btn {
+  color: yellow;
+  background-color: black;
+}
+
+.result {
+  box-shadow: inset 0 0 20px blue;
+  color: white;
+  position: absolute;
+  top: 70%;
+  right: 5%;
+  width: 20%;
+  text-align: center;
+  height: 20vh;
+  overflow: auto;
+}
+
+li.col-result {
+  list-style-type: none;
+  overflow: auto;
+}
+
+.result1 {
+  overflow: auto;
+}
